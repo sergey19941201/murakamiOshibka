@@ -17,6 +17,7 @@ using System.IO;
 using System.Json;
 using Android.Graphics;
 using Android.Preferences;
+using System.Globalization;
 
 namespace Murakami
 {
@@ -30,12 +31,11 @@ namespace Murakami
             SetContentView(Resource.Layout.detalniyProsmotr);
 
             int count = 1;
-            int price2;
         
             TextView quantity = FindViewById<TextView>(Resource.Id.quantity);
             TextView price = FindViewById<TextView>(Resource.Id.price);
 
-            price2 = Convert.ToInt32(price);
+            float price2 = float.Parse(price.Text, CultureInfo.InvariantCulture);
 
             ImageButton plus = FindViewById<ImageButton>(Resource.Id.plus);
             plus.Click += delegate

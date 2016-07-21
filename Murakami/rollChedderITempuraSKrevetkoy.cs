@@ -17,6 +17,7 @@ using System.IO;
 using System.Json;
 using Android.Graphics;
 using Android.Preferences;
+using System.Globalization;
 
 namespace Murakami
 {
@@ -29,26 +30,12 @@ namespace Murakami
             SetContentView(Resource.Layout.detalniyProsmotr);
 
             int count = 1;
-            int price2;
+            //int price2;
 
-            TextView quantity = FindViewById<TextView>(Resource.Id.quantity);
-            TextView price = FindViewById<TextView>(Resource.Id.price);
 
-            price2 = Convert.ToInt32(price);
 
             ImageButton plus = FindViewById<ImageButton>(Resource.Id.plus);
-            plus.Click += delegate
-            {
-                quantity.Text = string.Format("{0}", ++count);
-                price.Text = string.Format("{0}", count * price2 + "грн");
-            };
 
-            ImageButton minus = FindViewById<ImageButton>(Resource.Id.minus);
-            minus.Click += delegate
-            {
-                quantity.Text = string.Format("{0}", count > 1 ? --count : 1);
-                price.Text = string.Format("{0}", count * price2 + "грн");
-            };
 
             var path = System.Environment.GetFolderPath(System.Environment.SpecialFolder.MyDocuments);
             var filename = System.IO.Path.Combine(path, "cache.txt");
@@ -66,18 +53,38 @@ namespace Murakami
             TextView discription = FindViewById<TextView>(Resource.Id.discription);
             TextView weight = FindViewById<TextView>(Resource.Id.weight);
             ImageView imagen = FindViewById<ImageView>(Resource.Id.image);
+            TextView quantity = FindViewById<TextView>(Resource.Id.quantity);
+
+            ImageButton plus = FindViewById<ImageButton>(Resource.Id.plus);
+            int count = 1;
             int sku;
 
             JsonValue firstitem = readJson[0];
 
             productname.Text = firstitem["post_title"];
-            price.Text = firstitem["price"] + " грн";
+            price.Text = firstitem["price"];
             weight.Text = firstitem["weight"];
-            discription.Text= firstitem["post_excerpt"];
+            discription.Text = firstitem["post_excerpt"];
             sku = firstitem["sku"];
+
+
+            ImageButton minus = FindViewById<ImageButton>(Resource.Id.minus);
+
 
             Koush.UrlImageViewHelper.SetUrlDrawable(imagen, firstitem["img_url"], null, 5000000);
 
+
+            float price2 = float.Parse(price.Text, CultureInfo.InvariantCulture);
+            plus.Click += delegate
+            {
+                quantity.Text = string.Format("{0}", ++count);
+                price.Text = string.Format("{0}", count * price2);
+            };
+            minus.Click += delegate
+            {
+                quantity.Text = string.Format("{0}", count > 1 ? --count : 1);
+                price.Text = string.Format("{0}", count * price2);
+            };
         }
     }
 }
