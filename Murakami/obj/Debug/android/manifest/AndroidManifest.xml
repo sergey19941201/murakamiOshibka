@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="Murakami.Murakami" android:versionCode="1" android:versionName="1.0">
+  <!--suppress UsesMinSdkAttributes-->
+  <uses-sdk android:minSdkVersion="10" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <uses-feature android:glEsVersion="0x00020000" android:required="true" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+  <application android:label="Murakami" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
+    <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyDmsccNO5amkkPfWLw0mCy5ZUHpsygExxc" />
+    <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+    <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+    <activity android:label="AkciiActivity" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.AkciiActivity" />
+    <activity android:icon="@drawable/icon" android:label="BludoDniaActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Black.NoTitleBar" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.BludoDniaActivity" />
+    <activity android:label="CaliforniaActivity" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.CaliforniaActivity" />
+    <activity android:icon="@drawable/icon" android:label="desertsActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Black.NoTitleBar" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.desertsActivity" />
+    <activity android:label="detalniyProsmotrActivity" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.detalniyProsmotrActivity" />
+    <activity android:label="drakoniActivity" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.drakoniActivity" />
+    <activity android:label="FiladelfiaActivity" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.FiladelfiaActivity" />
+    <activity android:label="GoryachieRolliActivity" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.GoryachieRolliActivity" />
+    <activity android:label="InshiRolliActivity" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.InshiRolliActivity" />
+    <activity android:icon="@drawable/icon" android:label="kartaActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Black.NoTitleBar" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.kartaActivity" />
+    <activity android:label="LanchiActivity" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.LanchiActivity" />
+    <activity android:label="LapshaActivity" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.LapshaActivity" />
+    <activity android:label="Murakami" android:noHistory="true" android:screenOrientation="portrait" android:theme="@android:style/Theme.Black.NoTitleBar" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.SplashActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:icon="@drawable/icon" android:label="Murakami" android:screenOrientation="portrait" android:theme="@android:style/Theme.Black.NoTitleBar" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:label="MakiActivity" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.MakiActivity" />
+    <activity android:icon="@drawable/icon" android:label="Murakami" android:screenOrientation="portrait" android:theme="@android:style/Theme.Black.NoTitleBar" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.MenuActivity" />
+    <activity android:label="NapitkiActivity" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.NapitkiActivity" />
+    <activity android:label="NovostiActivity" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.NovostiActivity" />
+    <activity android:label="OsnovniBludaActivity" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.OsnovniBludaActivity" />
+    <activity android:icon="@drawable/icon" android:label="Murakami" android:screenOrientation="portrait" android:theme="@android:style/Theme.Black.NoTitleBar" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.ProMurakamiActivity" />
+    <activity android:icon="@drawable/icon" android:label="rollChedderITempuraSKrevetkoy" android:screenOrientation="portrait" android:theme="@android:style/Theme.Black.NoTitleBar" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.rollChedderITempuraSKrevetkoy" />
+    <activity android:label="SaladsActivity" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.SaladsActivity" />
+    <activity android:label="SashimiActivity" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.SashimiActivity" />
+    <activity android:icon="@drawable/icon" android:label="SetRestoranovActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Black.NoTitleBar" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.SetRestoranovActivity" />
+    <activity android:label="SetsActivity" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.SetsActivity" />
+    <activity android:icon="@drawable/icon" android:label="SoucesActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Black.NoTitleBar" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.SoucesActivity" />
+    <activity android:label="SoupesActivity" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.SoupesActivity" />
+    <activity android:icon="@drawable/icon" android:label="SushiActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Black.NoTitleBar" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.SushiActivity" />
+    <activity android:label="TepanActivity" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.TepanActivity" />
+    <activity android:label="ZakuskiActivity" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.ZakuskiActivity" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="Murakami.Murakami.mono.MonoRuntimeProvider.__mono_init__" />
+    <!--suppress ExportedReceiver-->
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.Murakami.Murakami" />
+      </intent-filter>
+    </receiver>
+  </application>
+</manifest>

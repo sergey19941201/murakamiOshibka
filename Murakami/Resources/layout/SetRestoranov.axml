@@ -1,0 +1,1562 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:background="@drawable/bg"
+    android:id="@+id/linearLayout3">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="182.5dp"
+        android:id="@+id/linearLayout1"
+        android:background="@drawable/header5">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout4">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout5">
+                <ImageButton
+                    android:layout_width="41.5dp"
+                    android:layout_height="40.0dp"
+                    android:background="@drawable/menu"
+                    android:layout_marginTop="19.0dp"
+                    android:layout_marginLeft="8.5dp"
+                    android:id="@+id/menu" />
+                <ImageButton
+                    android:layout_width="115.5dp"
+                    android:layout_height="67.5dp"
+                    android:id="@+id/logo_murakami"
+                    android:background="@drawable/logo_murakami"
+                    android:layout_marginLeft="85.5dp"
+                    android:layout_marginTop="3.0dp" />
+                <ImageButton
+                    android:layout_width="44.0dp"
+                    android:layout_height="43.0dp"
+                    android:id="@+id/cart"
+                    android:background="@drawable/cart"
+                    android:layout_marginLeft="70.5dp"
+                    android:layout_marginTop="15.5dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="91.0dp"
+                android:id="@+id/linearLayout5"
+                android:background="#99000000"
+                android:layout_marginTop="23.0dp">
+                <ImageButton
+                    android:layout_width="41.5dp"
+                    android:layout_height="40.0dp"
+                    android:id="@+id/app_murakami_v5_menu_chain1"
+                    android:background="@drawable/app_murakami_v5_menu_chain1"
+                    android:layout_marginTop="22.0dp"
+                    android:layout_marginLeft="8.5dp" />
+                <TextView
+                    android:text="СЕТЬ РЕСТОРАНОВ"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView4"
+                    android:gravity="center_vertical"
+                    android:textSize="24sp"
+                    android:layout_marginLeft="12.5dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="89.0dp"
+        android:id="@+id/linearLayout5"
+        android:background="#99000000"
+        android:layout_marginTop="0dp">
+        <ImageButton
+            android:layout_width="322.5dp"
+            android:layout_height="48.5dp"
+            android:id="@+id/smotret_na_karte"
+            android:background="@drawable/smotret_na_karte"
+            android:layout_marginTop="20.0dp"
+            android:layout_marginLeft="31.0dp" />
+    </LinearLayout>
+    <ScrollView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView1">
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout6"
+            android:background="#99999999">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout7">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:id="@+id/linearLayout7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:minWidth="25px"
+                        android:minHeight="25px"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout8">
+                        <TextView
+                            android:text="МУРАКАМИ ТРЦ &quot;ОКЕАН ПЛАЗА&quot;"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView5"
+                            android:layout_marginTop="7.5dp"
+                            android:layout_marginLeft="8.0dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout9"
+                        android:layout_marginTop="14.5dp">
+                        <TextView
+                            android:text="Адрес:"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView6"
+                            android:textColor="#DAA520"
+                            android:layout_marginLeft="8.0dp" />
+                        <TextView
+                            android:text="Киев, ул. Горького 176"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView10"
+                            android:layout_marginLeft="52.5dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout10">
+                        <TextView
+                            android:text="Телефон:"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView7"
+                            android:textColor="#DAA520"
+                            android:layout_marginLeft="8.0dp" />
+                        <TextView
+                            android:text="(044) 591 38 23"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView11"
+                            android:layout_marginLeft="30.0dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout11"
+                        android:layout_marginTop="27.0dp">
+                        <TextView
+                            android:text="Время "
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView8"
+                            android:layout_marginLeft="8.0dp" />
+                        <TextView
+                            android:text="Вс. - Чт. 10:00 - 00:00"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView12"
+                            android:layout_marginLeft="51.0dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout12">
+                        <TextView
+                            android:text="работы:"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView9"
+                            android:layout_marginLeft="8.0dp" />
+                        <TextView
+                            android:text="Пт. - Сб. 10:00 - 02:00"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView13"
+                            android:layout_marginLeft="41.5dp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout13">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:id="@+id/linearLayout7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:minWidth="25px"
+                        android:minHeight="25px"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout8">
+                        <TextView
+                            android:text="МУРАКАМИ НА ЛОБАНОВСКОГО"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView5"
+                            android:layout_marginTop="7.5dp"
+                            android:layout_marginLeft="8.0dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout9"
+                        android:layout_marginTop="14.5dp">
+                        <TextView
+                            android:text="Адрес:"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView6"
+                            android:textColor="#DAA520"
+                            android:layout_marginLeft="8.0dp" />
+                        <TextView
+                            android:text="Киев , пр. Лобановского, 4а"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView10"
+                            android:layout_marginLeft="52.5dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout10">
+                        <TextView
+                            android:text="Телефон:"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView7"
+                            android:textColor="#DAA520"
+                            android:layout_marginLeft="8.0dp" />
+                        <TextView
+                            android:text="(044) 275-67-75"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView11"
+                            android:layout_marginLeft="30.0dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout11"
+                        android:layout_marginTop="27.0dp">
+                        <TextView
+                            android:text="Время "
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView8"
+                            android:layout_marginLeft="8.0dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout12">
+                        <TextView
+                            android:text="работы:"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView9"
+                            android:layout_marginLeft="8.0dp" />
+                        <TextView
+                            android:text="Пн. - Вс. 11:00 - 00:00"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView12"
+                            android:layout_marginLeft="51.0dp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout13">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:id="@+id/linearLayout7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:minWidth="25px"
+                        android:minHeight="25px"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout8">
+                        <TextView
+                            android:text="МУРАКАМИ НА РУСАНОВКЕ"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView5"
+                            android:layout_marginTop="7.5dp"
+                            android:layout_marginLeft="8.0dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout9"
+                        android:layout_marginTop="14.5dp">
+                        <TextView
+                            android:text="Адрес:"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView6"
+                            android:textColor="#DAA520"
+                            android:layout_marginLeft="8.0dp" />
+                        <TextView
+                            android:text="Киев, Русановская набережная 10"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView10"
+                            android:layout_marginLeft="52.5dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout10">
+                        <TextView
+                            android:text="Телефон:"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView7"
+                            android:textColor="#DAA520"
+                            android:layout_marginLeft="8.0dp" />
+                        <TextView
+                            android:text="(044) 295-98-49"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView11"
+                            android:layout_marginLeft="30.0dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout11"
+                        android:layout_marginTop="27.0dp">
+                        <TextView
+                            android:text="Время "
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView8"
+                            android:layout_marginLeft="8.0dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout12">
+                        <TextView
+                            android:text="работы:"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView9"
+                            android:layout_marginLeft="8.0dp" />
+                        <TextView
+                            android:text="Пн. - Вс. 12:00 - 00:00"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView12"
+                            android:layout_marginLeft="51.0dp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout13">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:id="@+id/linearLayout7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:minWidth="25px"
+                        android:minHeight="25px"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout8">
+                        <TextView
+                            android:text="МУРАКАМИ НА ПОЗНЯКАХ"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView5"
+                            android:layout_marginTop="7.5dp"
+                            android:layout_marginLeft="8.0dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout9"
+                        android:layout_marginTop="14.5dp">
+                        <TextView
+                            android:text="Адрес:"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView6"
+                            android:textColor="#DAA520"
+                            android:layout_marginLeft="8.0dp" />
+                        <TextView
+                            android:text="Киев, ул. Драгоманова 29"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView10"
+                            android:layout_marginLeft="52.5dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout10">
+                        <TextView
+                            android:text="Телефон:"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView7"
+                            android:textColor="#DAA520"
+                            android:layout_marginLeft="8.0dp" />
+                        <TextView
+                            android:text="(044) 581-59-14"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView11"
+                            android:layout_marginLeft="30.0dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout11"
+                        android:layout_marginTop="27.0dp">
+                        <TextView
+                            android:text="Время "
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView8"
+                            android:layout_marginLeft="8.0dp" />
+                        <TextView
+                            android:text="Вс. - Чт. 12:00 - 03:00"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView12"
+                            android:layout_marginLeft="60.5dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout12">
+                        <TextView
+                            android:text="работы:"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView9"
+                            android:layout_marginLeft="8.0dp" />
+                        <TextView
+                            android:text="Пт. - Сб. 12:00 - 06:00"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView12"
+                            android:layout_marginLeft="51.0dp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout13">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:id="@+id/linearLayout7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:minWidth="25px"
+                        android:minHeight="25px"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout8">
+                        <TextView
+                            android:text="МУРАКАМИ МЕТРО ОЛИМПИЙСКАЯ"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView5"
+                            android:layout_marginTop="7.5dp"
+                            android:layout_marginLeft="0dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout9"
+                        android:layout_marginTop="14.5dp">
+                        <TextView
+                            android:text="Адрес:"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView6"
+                            android:textColor="#DAA520"
+                            android:layout_marginLeft="8.0dp" />
+                        <TextView
+                            android:text="Киев, ул. Большая Васильковская 57/3"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView10"
+                            android:layout_marginLeft="52.5dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout10">
+                        <TextView
+                            android:text="Телефон:"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView7"
+                            android:textColor="#DAA520"
+                            android:layout_marginLeft="8.0dp" />
+                        <TextView
+                            android:text="(044) 287-03-63"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView11"
+                            android:layout_marginLeft="30.0dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout11"
+                        android:layout_marginTop="27.0dp">
+                        <TextView
+                            android:text="Время "
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView8"
+                            android:layout_marginLeft="8.0dp" />
+                        <TextView
+                            android:text="Пн - ЧТ с 9:00 до 00:00; Пт - с 9 :00 до 03:00"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="298.0dp"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView12"
+                            android:layout_marginLeft="11.5dp"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout12">
+                        <TextView
+                            android:text="работы:"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView9"
+                            android:layout_marginLeft="8.0dp" />
+                        <TextView
+                            android:text="Сб - 12:00 до 03:00; Вс - 12: 00 до 00:00"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView12"
+                            android:layout_marginLeft="24.5dp"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout13">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:id="@+id/linearLayout7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:minWidth="25px"
+                        android:minHeight="25px"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout8">
+                        <TextView
+                            android:text="МУРАКАМИ МЕТРО СВЯТОШИНО"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView5"
+                            android:layout_marginTop="7.5dp"
+                            android:layout_marginLeft="8.0dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout9"
+                        android:layout_marginTop="14.5dp">
+                        <TextView
+                            android:text="Адрес:"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView6"
+                            android:textColor="#DAA520"
+                            android:layout_marginLeft="8.0dp" />
+                        <TextView
+                            android:text="Киев, пр. Победы 87Б"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView10"
+                            android:layout_marginLeft="52.5dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout10">
+                        <TextView
+                            android:text="Телефон:"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView7"
+                            android:textColor="#DAA520"
+                            android:layout_marginLeft="8.0dp" />
+                        <TextView
+                            android:text="(044) 377-52-24"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView11"
+                            android:layout_marginLeft="30.0dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout11"
+                        android:layout_marginTop="27.0dp">
+                        <TextView
+                            android:text="Время "
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView8"
+                            android:layout_marginLeft="8.0dp" />
+                        <TextView
+                            android:text="Вс. -Чт: 11:00 - 03:00"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView12"
+                            android:layout_marginLeft="59.0dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout12">
+                        <TextView
+                            android:text="работы:"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView9"
+                            android:layout_marginLeft="8.0dp" />
+                        <TextView
+                            android:text="Пт. -Сб. 11:00 - 06:00"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView12"
+                            android:layout_marginLeft="51.0dp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout13">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:id="@+id/linearLayout7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:minWidth="25px"
+                        android:minHeight="25px"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout8">
+                        <TextView
+                            android:text="МУРАКАМИ НА БОРЩАГОВКЕ"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView5"
+                            android:layout_marginTop="7.5dp"
+                            android:layout_marginLeft="8.0dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout9"
+                        android:layout_marginTop="14.5dp">
+                        <TextView
+                            android:text="Адрес:"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView6"
+                            android:textColor="#DAA520"
+                            android:layout_marginLeft="8.0dp" />
+                        <TextView
+                            android:text="Киев, ул. Гната Юры, 13"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView10"
+                            android:layout_marginLeft="52.5dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout10">
+                        <TextView
+                            android:text="Телефон:"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView7"
+                            android:textColor="#DAA520"
+                            android:layout_marginLeft="8.0dp" />
+                        <TextView
+                            android:text="095 280 84 09"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView11"
+                            android:layout_marginLeft="30.0dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout11"
+                        android:layout_marginTop="27.0dp">
+                        <TextView
+                            android:text="Время "
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView8"
+                            android:layout_marginLeft="8.0dp" />
+                        <TextView
+                            android:text="Вс. - Чт. 11:00 - 00:00"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView12"
+                            android:layout_marginLeft="59.5dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout12">
+                        <TextView
+                            android:text="работы:"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView9"
+                            android:layout_marginLeft="8.0dp" />
+                        <TextView
+                            android:text="Пт. - Сб. 11:00 - 02:00"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView12"
+                            android:layout_marginLeft="51.0dp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout13">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:id="@+id/linearLayout7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:minWidth="25px"
+                        android:minHeight="25px"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout8">
+                        <TextView
+                            android:text="МУРАКАМИ НА ОБОЛОНИ"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView5"
+                            android:layout_marginTop="7.5dp"
+                            android:layout_marginLeft="8.0dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout9"
+                        android:layout_marginTop="14.5dp">
+                        <TextView
+                            android:text="Адрес:"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView6"
+                            android:textColor="#DAA520"
+                            android:layout_marginLeft="8.0dp" />
+                        <TextView
+                            android:text="Киев, пр. Героев Сталинграда 14 Г"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView10"
+                            android:layout_marginLeft="22sp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout10">
+                        <TextView
+                            android:text="Телефон:"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView7"
+                            android:textColor="#DAA520"
+                            android:layout_marginLeft="8.0dp" />
+                        <TextView
+                            android:text="(044) 331-01-99"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView11"
+                            android:layout_marginLeft="30.0dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout11"
+                        android:layout_marginTop="27.0dp">
+                        <TextView
+                            android:text="Время "
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView8"
+                            android:layout_marginLeft="8.0dp" />
+                        <TextView
+                            android:text="Вс. - Вт. 12:00 - 00:00"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView12"
+                            android:layout_marginLeft="59.5dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout12">
+                        <TextView
+                            android:text="работы:"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView9"
+                            android:layout_marginLeft="8.0dp" />
+                        <TextView
+                            android:text="Ср. - Сб. 12:00 - 02:00"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView12"
+                            android:layout_marginLeft="51.0dp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout13">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:id="@+id/linearLayout7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:minWidth="25px"
+                        android:minHeight="25px"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout8">
+                        <TextView
+                            android:text="МУРАКАМИ НА ПОДОЛЕ"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView5"
+                            android:layout_marginTop="7.5dp"
+                            android:layout_marginLeft="8.0dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout9"
+                        android:layout_marginTop="14.5dp">
+                        <TextView
+                            android:text="Адрес:"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView6"
+                            android:textColor="#DAA520"
+                            android:layout_marginLeft="8.0dp" />
+                        <TextView
+                            android:text="Киев, ул. Сагайдачного 35"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView10"
+                            android:layout_marginLeft="52.5dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout10">
+                        <TextView
+                            android:text="Телефон:"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView7"
+                            android:textColor="#DAA520"
+                            android:layout_marginLeft="8.0dp" />
+                        <TextView
+                            android:text=" (044) 425-01-90"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView11"
+                            android:layout_marginLeft="30.0dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout11"
+                        android:layout_marginTop="27.0dp">
+                        <TextView
+                            android:text="Время "
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView8"
+                            android:layout_marginLeft="8.0dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout12">
+                        <TextView
+                            android:text="работы:"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView9"
+                            android:layout_marginLeft="8.0dp" />
+                        <TextView
+                            android:text="Пн. - Вс. 11:00 - 00:00"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView12"
+                            android:layout_marginLeft="51.0dp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout13">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:id="@+id/linearLayout7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:minWidth="25px"
+                        android:minHeight="25px"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout8">
+                        <TextView
+                            android:text="МУРАКАМИ В ТРЦ &quot;МАГЕЛАН&quot;"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView5"
+                            android:layout_marginTop="7.5dp"
+                            android:layout_marginLeft="8.0dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout9"
+                        android:layout_marginTop="14.5dp">
+                        <TextView
+                            android:text="Адрес:"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView6"
+                            android:textColor="#DAA520"
+                            android:layout_marginLeft="8.0dp" />
+                        <TextView
+                            android:text="Киев , пр. Ак. Глушкова 13 Б , 3-й этаж"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView10"
+                            android:textSize="16dp"
+                            android:layout_marginLeft="31.0dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout10">
+                        <TextView
+                            android:text="Телефон:"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView7"
+                            android:textColor="#DAA520"
+                            android:layout_marginLeft="8.0dp" />
+                        <TextView
+                            android:text="(044) 496-13-28"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView11"
+                            android:layout_marginLeft="30.0dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout11"
+                        android:layout_marginTop="27.0dp">
+                        <TextView
+                            android:text="Время "
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView8"
+                            android:layout_marginLeft="8.0dp" />
+                        <TextView
+                            android:text="Вс. - Чт. 12:00 - 03:00"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView12"
+                            android:layout_marginLeft="60.5dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout12">
+                        <TextView
+                            android:text="работы:"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView9"
+                            android:layout_marginLeft="8.0dp" />
+                        <TextView
+                            android:text="Пт. - Сб. 12:00 - 06:00"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView12"
+                            android:layout_marginLeft="51.0dp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout13">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:id="@+id/linearLayout7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:minWidth="25px"
+                        android:minHeight="25px"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout8">
+                        <TextView
+                            android:text="МУРАКАМИ В ТЦ &quot;ПИРАМИДА&quot;"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView5"
+                            android:layout_marginTop="7.5dp"
+                            android:layout_marginLeft="8.0dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout9"
+                        android:layout_marginTop="14.5dp">
+                        <TextView
+                            android:text="Адрес:"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView6"
+                            android:textColor="#DAA520"
+                            android:layout_marginLeft="8.0dp" />
+                        <TextView
+                            android:text="Киев, ул. Мишуги 4"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView10"
+                            android:layout_marginLeft="52.5dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout10">
+                        <TextView
+                            android:text="Телефон:"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView7"
+                            android:textColor="#DAA520"
+                            android:layout_marginLeft="8.0dp" />
+                        <TextView
+                            android:text="(044) 495-70-33"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView11"
+                            android:layout_marginLeft="30.0dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout11"
+                        android:layout_marginTop="27.0dp">
+                        <TextView
+                            android:text="Время "
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView8"
+                            android:layout_marginLeft="8.0dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout12">
+                        <TextView
+                            android:text="работы:"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView9"
+                            android:layout_marginLeft="8.0dp" />
+                        <TextView
+                            android:text="Пн. - Вс. 10:00 - 22:00"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView12"
+                            android:layout_marginLeft="51.0dp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout13">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:id="@+id/linearLayout7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:minWidth="25px"
+                        android:minHeight="25px"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout8">
+                        <TextView
+                            android:text="МУРАКАМИ МЕТРО КРЕЩАТИК"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView5"
+                            android:layout_marginTop="7.5dp"
+                            android:layout_marginLeft="8.0dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout9"
+                        android:layout_marginTop="14.5dp">
+                        <TextView
+                            android:text="Адрес:"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView6"
+                            android:textColor="#DAA520"
+                            android:layout_marginLeft="8.0dp" />
+                        <TextView
+                            android:text="Киев, ул. Крещатик 14"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView10"
+                            android:layout_marginLeft="52.5dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout10">
+                        <TextView
+                            android:text="Телефон:"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView7"
+                            android:textColor="#DAA520"
+                            android:layout_marginLeft="8.0dp" />
+                        <TextView
+                            android:text="(044) 279-56-69"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView11"
+                            android:layout_marginLeft="30.0dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout11"
+                        android:layout_marginTop="27.0dp">
+                        <TextView
+                            android:text="Время "
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView8"
+                            android:layout_marginLeft="8.0dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout12">
+                        <TextView
+                            android:text="работы:"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView9"
+                            android:layout_marginLeft="8.0dp" />
+                        <TextView
+                            android:text="Целые сутки, все дни недели"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView12"
+                            android:layout_marginLeft="51.0dp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout13">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:id="@+id/linearLayout7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:minWidth="25px"
+                        android:minHeight="25px"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout8">
+                        <TextView
+                            android:text="РЕСТОРАН МЕТРО ЗОЛОТЫЕ ВОРОТА"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView5"
+                            android:layout_marginTop="7.5dp"
+                            android:layout_marginLeft="4.0dp"
+                            android:gravity="center_horizontal" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout9"
+                        android:layout_marginTop="14.5dp">
+                        <TextView
+                            android:text="Адрес:"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView6"
+                            android:textColor="#DAA520"
+                            android:layout_marginLeft="8.0dp" />
+                        <TextView
+                            android:text="Киев, ул. Владимирская 42"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView10"
+                            android:layout_marginLeft="52.5dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout10">
+                        <TextView
+                            android:text="Телефон:"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView7"
+                            android:textColor="#DAA520"
+                            android:layout_marginLeft="8.0dp" />
+                        <TextView
+                            android:text="(044) 234-43-02"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView11"
+                            android:layout_marginLeft="30.0dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout11"
+                        android:layout_marginTop="27.0dp">
+                        <TextView
+                            android:text="Время "
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView8"
+                            android:layout_marginLeft="8.0dp" />
+                        <TextView
+                            android:text="Пн. - Пт. 11:00 - 23:00"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView12"
+                            android:layout_marginLeft="58.5dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout12">
+                        <TextView
+                            android:text="работы:"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView9"
+                            android:layout_marginLeft="8.0dp" />
+                        <TextView
+                            android:text="Сб. - Вс. 12:00 - 23:00"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView12"
+                            android:layout_marginLeft="51.0dp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

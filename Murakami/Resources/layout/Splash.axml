@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <ImageView
+        android:src="@drawable/logo_murakami"
+        android:layout_width="348.0dp"
+        android:layout_height="301.5dp"
+        android:id="@+id/imageView1"
+        android:layout_marginTop="117.1dp"
+        android:layout_marginLeft="20.0dp" />
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="67.4dp"
+        android:progress="0"
+        android:max="60"
+        android:id="@+id/progressBar1" />
+    <TextView
+        android:text="ЗАГРУЗКА КЭША "
+        android:layout_width="match_parent"
+        android:layout_height="52.0dp"
+        android:id="@+id/textView1"
+        android:layout_marginTop="28.0dp"
+        android:textSize="20sp"
+        android:gravity="center_horizontal" />
+</LinearLayout>
