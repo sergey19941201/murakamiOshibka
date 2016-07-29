@@ -7,22 +7,198 @@
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
-  <application android:label="Murakami" android:name="android.app.Application" android:allowBackup="true" android:icon="@drawable/icon">
+  <application android:label="Murakami" android:name="android.app.Application" android:allowBackup="true">
     <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyDmsccNO5amkkPfWLw0mCy5ZUHpsygExxc" />
     <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
     <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+    <activity android:label="AkciiActivity" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.AkciiActivity" />
     <activity android:icon="@drawable/icon" android:label="BludoDniaActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Black.NoTitleBar" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.BludoDniaActivity" />
+    <activity android:label="CaliforniaActivity" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.CaliforniaActivity" />
+    <activity android:label="chipsiRisovieKrevietochnie" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.chipsiRisovieKrevietochnie" />
+    <activity android:label="chizKeyk" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.chizKeyk" />
+    <activity android:icon="@drawable/icon" android:label="desertsActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Black.NoTitleBar" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.desertsActivity" />
+    <activity android:label="detalniyProsmotrActivity" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.detalniyProsmotrActivity" />
+    <activity android:label="dimSamiSKuritsey" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.dimSamiSKuritsey" />
+    <activity android:label="dimSamiSkuritseyIKrevietkoy" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.dimSamiSkuritseyIKrevietkoy" />
+    <activity android:label="drakoniActivity" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.drakoniActivity" />
+    <activity android:label="FiladelfiaActivity" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.FiladelfiaActivity" />
+    <activity android:label="fudziyama" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.fudziyama" />
+    <activity android:label="GoryachieRolliActivity" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.GoryachieRolliActivity" />
+    <activity android:label="goryachiyRollSLososemIUgrem" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.goryachiyRollSLososemIUgrem" />
+    <activity android:label="goryachiyRollTonkatsusUgrem" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.goryachiyRollTonkatsusUgrem" />
+    <activity android:label="harGauSKuritseyIKrevietkoy" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.harGauSKuritseyIKrevietkoy" />
+    <activity android:label="harGaySKuritsey" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.harGaySKuritsey" />
+    <activity android:label="hrustkiyKalmarIzSpaysiSousom" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.hrustkiyKalmarIzSpaysiSousom" />
+    <activity android:label="imbir" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.imbir" />
+    <activity android:label="InshiRolliActivity" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.InshiRolliActivity" />
+    <activity android:label="kalmarKarageSChiliTsitrusovimSousom" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.kalmarKarageSChiliTsitrusovimSousom" />
+    <activity android:label="kariSKuritseyIParovimRisom" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.kariSKuritseyIParovimRisom" />
     <activity android:icon="@drawable/icon" android:label="kartaActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Black.NoTitleBar" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.kartaActivity" />
+    <activity android:label="keykSLososem" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.keykSLososem" />
+    <activity android:label="keykSLosossem" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.keykSLosossem" />
+    <activity android:label="kokosovieLepeshkiSChesnochnimSousom" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.kokosovieLepeshkiSChesnochnimSousom" />
+    <activity android:label="krabovieMeshochki" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.krabovieMeshochki" />
+    <activity android:label="yamato" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.kuriniyBulionSYaytsomSalatOvoshchnoySZapravkoyNasuKrahmalnayaLapshaSOvoshchamiISvininoy" />
+    <activity android:label="kuriniyRuletSTempuraOvoshchamiIyablochnimChatni" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.kuriniyRuletSTempuraOvoshchamiIyablochnimChatni" />
+    <activity android:label="kurinoeBedroPoPekinskiSMarinovanimOgurtsomVasabi" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.kurinoeBedroPoPekinskiSMarinovanimOgurtsomVasabi" />
+    <activity android:label="LanchiActivity" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.LanchiActivity" />
+    <activity android:label="LapshaActivity" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.LapshaActivity" />
     <activity android:label="Murakami" android:noHistory="true" android:screenOrientation="portrait" android:theme="@android:style/Theme.Black.NoTitleBar" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.SplashActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-    <activity android:icon="@drawable/icon" android:label="Murakami" android:screenOrientation="portrait" android:theme="@android:style/Theme.Black.NoTitleBar" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.MainActivity" />
+    <activity android:icon="@drawable/icon" android:label="Murakami" android:screenOrientation="portrait" android:theme="@android:style/Theme.Black.NoTitleBar" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:label="MakiActivity" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.MakiActivity" />
     <activity android:icon="@drawable/icon" android:label="Murakami" android:screenOrientation="portrait" android:theme="@android:style/Theme.Black.NoTitleBar" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.MenuActivity" />
+    <activity android:label="NapitkiActivity" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.NapitkiActivity" />
+    <activity android:label="NovostiActivity" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.NovostiActivity" />
+    <activity android:label="OsnovniBludaActivity" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.OsnovniBludaActivity" />
+    <activity android:label="ovoshchiTepanSKuritsey" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.ovoshchiTepanSKuritsey" />
+    <activity android:label="ovoshchiTepanSMoreproduktami" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.ovoshchiTepanSMoreproduktami" />
+    <activity android:label="ovoshchiTepanSTeliatinoy" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.ovoshchiTepanSTeliatinoy" />
+    <activity android:label="pekinskiySalatSKuritseyIYaytsomTonkatsu" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.pekinskiySalatSKuritseyIYaytsomTonkatsu" />
+    <activity android:label="pelmeniGedzuSKuritsey" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.pelmeniGedzuSKuritsey" />
+    <activity android:label="pelmeniGedzuSKuritseyIKrevetkoy" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.pelmeniGedzuSKuritseyIKrevetkoy" />
+    <activity android:label="prianieZharenieKrevietkiSSousomAvokadoIKimchi" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.prianieZharenieKrevietkiSSousomAvokadoIKimchi" />
     <activity android:icon="@drawable/icon" android:label="Murakami" android:screenOrientation="portrait" android:theme="@android:style/Theme.Black.NoTitleBar" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.ProMurakamiActivity" />
+    <activity android:label="RisGohan" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.RisGohan" />
+    <activity android:label="risZhareniySKrevetkami" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.risZhareniySKrevetkami" />
+    <activity android:label="risZhareniySKuritsey" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.risZhareniySKuritsey" />
+    <activity android:label="risZhareniySOvoshcami" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.risZhareniySOvoshcami" />
+    <activity android:label="risZharenniySGribamiIYaytsom" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.risZharenniySGribamiIYaytsom" />
+    <activity android:label="rollAliaska" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.rollAliaska" />
+    <activity android:label="rollCaliforniyskiyOstriySLososemVStruzhkeTuntsaa" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.rollCaliforniyskiyOstriySLososemVStruzhkeTuntsaa" />
+    <activity android:label="rollCaliforniyskiySLososem" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.rollCaliforniyskiySLososem" />
+    <activity android:label="rollCaliforniyskiySTempuraKrevietkoy" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.rollCaliforniyskiySTempuraKrevietkoy" />
+    <activity android:label="rollCaliforniyskiySTuntsom" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.rollCaliforniyskiySTuntsom" />
+    <activity android:label="rollCaliforniyskiySUgrem" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.rollCaliforniyskiySUgrem" />
+    <activity android:icon="@drawable/icon" android:label="rollChedderITempuraSKrevetkoy" android:screenOrientation="portrait" android:theme="@android:style/Theme.Black.NoTitleBar" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.rollChedderITempuraSKrevetkoy" />
+    <activity android:label="rollChernichnoSirniy" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.rollChernichnoSirniy" />
+    <activity android:label="rollDrakon" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.rollDrakon" />
+    <activity android:label="rollFiladelfiaSKopchenimLososem" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.rollFiladelfiaSKopchenimLososem" />
+    <activity android:label="rollFiladelfiaSMarinovanimLososem" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.rollFiladelfiaSMarinovanimLososem" />
+    <activity android:label="rollKrasniyDrakon" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.rollKrasniyDrakon" />
+    <activity android:label="rollOgurechniyLosos" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.rollOgurechniyLosos" />
+    <activity android:label="rollOgurechniyUgor" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.rollOgurechniyUgor" />
+    <activity android:label="rollOshiAburiSLososemIGolSousom" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.rollOshiAburiSLososemIGolSousom" />
+    <activity android:label="rollOshiSLososemITuntsom" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.rollOshiSLososemITuntsom" />
+    <activity android:label="rollOvoshchnoy" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.rollOvoshchnoy" />
+    <activity android:label="rollRainbowNewStyle" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.rollRainbowNewStyle" />
+    <activity android:label="rollSAvokado" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.rollSAvokado" />
+    <activity android:label="rollSladkayaFiladelfia" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.rollSladkayaFiladelfia" />
+    <activity android:label="rollSlivochnayaCaliforniaSUgrem" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.rollSlivochnayaCaliforniaSUgrem" />
+    <activity android:label="rollSlososem" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.rollSlososem" />
+    <activity android:label="rollSLososemMarinovanimiVodorosliamiISiromFiladelfia" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.rollSLososemMarinovanimiVodorosliamiISiromFiladelfia" />
+    <activity android:label="rollSOgurtsom" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.rollSOgurtsom" />
+    <activity android:label="rollSoSniezhnimKrabomIOgurtsom" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.rollSoSniezhnimKrabomIOgurtsom" />
+    <activity android:label="rollSpaisiLosos" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.rollSpaisiLosos" />
+    <activity android:label="rollSpaisiOsminog" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.rollSpaisiOsminog" />
+    <activity android:label="rollSpaisiTunets" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.rollSpaisiTunets" />
+    <activity android:label="rollSPastrami" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.rollSPastrami" />
+    <activity android:label="rollSTuntsom" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.rollSTuntsom" />
+    <activity android:label="rollSTuntsomSnezhnimKrabomISousomIzAvokado" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.rollSTuntsomSnezhnimKrabomISousomIzAvokado" />
+    <activity android:label="rollSUgremIAvokado" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.rollSUgremIAvokado" />
+    <activity android:label="rollSUgremIOgurtsom" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.rollSUgremIOgurtsom" />
+    <activity android:label="rollZolotoyDrakon" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.rollZolotoyDrakon" />
+    <activity android:label="sakatSPastramiVAsiatskomStile" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.sakatSPastramiVAsiatskomStile" />
+    <activity android:label="SaladsActivity" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.SaladsActivity" />
+    <activity android:label="salatDrakon" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.salatDrakon" />
+    <activity android:label="salatIzSoevihProrostkov" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.salatIzSoevihProrostkov" />
+    <activity android:label="salatOvoshchnoySTeriyakiKuritseyIHrustiashcheyLapsoy" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.salatOvoshchnoySTeriyakiKuritseyIHrustiashcheyLapsoy" />
+    <activity android:label="salatSKopchenimBeconomVtempuraKranchah" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.salatSKopchenimBeconomVtempuraKranchah" />
+    <activity android:label="salatSoSviezhimLososemIGolubimSirom" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.salatSoSviezhimLososemIGolubimSirom" />
+    <activity android:label="salatTonkatsuKrevietkamiPodSirnimSousom" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.salatTonkatsuKrevietkamiPodSirnimSousom" />
+    <activity android:label="salatTonkatsuSKuritseyPodSirnimSousom" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.salatTonkatsuSKuritseyPodSirnimSousom" />
+    <activity android:label="SashimiActivity" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.SashimiActivity" />
+    <activity android:label="sashimiLosos" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.sashimiLosos" />
+    <activity android:label="sashimiOsminog" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.sashimiOsminog" />
+    <activity android:label="sashimiTigrovayaKrevietka" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.sashimiTigrovayaKrevietka" />
+    <activity android:label="sashimiTunets" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.sashimiTunets" />
+    <activity android:label="sashimiUgorKopcheniy" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.sashimiUgorKopcheniy" />
+    <activity android:label="setCaliforniyskiy" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.setCaliforniyskiy" />
+    <activity android:label="setDrakon" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.setDrakon" />
+    <activity android:label="setEdo" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.setEdo" />
+    <activity android:label="setFiladelfia" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.setFiladelfia" />
+    <activity android:label="setFudzi" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.setFudzi" />
     <activity android:icon="@drawable/icon" android:label="SetRestoranovActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Black.NoTitleBar" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.SetRestoranovActivity" />
+    <activity android:label="SetsActivity" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.SetsActivity" />
+    <activity android:label="setSushi" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.setSushi" />
+    <activity android:label="setYamato" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.setYamato" />
+    <activity android:label="shafranovayaLapshaSMoreproduktami" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.shafranovayaLapshaSMoreproduktami" />
+    <activity android:label="shokoladnoAvokadniyDesert" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.shokoladnoAvokadniyDesert" />
+    <activity android:label="sishiOsminog" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.sishiOsminog" />
+    <activity android:label="soeviySous" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.soeviySous" />
+    <activity android:label="sokRichAnanasoviy" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.sokRichAnanasoviy" />
+    <activity android:label="sokRichApelsinoviy" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.sokRichApelsinoviy" />
+    <activity android:label="sokRichEkzotik" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.sokRichEkzotik" />
+    <activity android:label="sokRichGreypfrutoviy" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.sokRichGreypfrutoviy" />
+    <activity android:label="sokRichPersikoviy" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.sokRichPersikoviy" />
+    <activity android:label="sokRichTomatniy" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.sokRichTomatniy" />
+    <activity android:label="sokRichVishneviy" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.sokRichVishneviy" />
+    <activity android:label="SokRichYabluchniy" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.SokRichYabluchniy" />
+    <activity android:icon="@drawable/icon" android:label="SoucesActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Black.NoTitleBar" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.SoucesActivity" />
+    <activity android:label="SoupesActivity" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.SoupesActivity" />
+    <activity android:label="sousKimchi" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.sousKimchi" />
+    <activity android:label="sousKimchiMayonez" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.sousKimchiMayonez" />
+    <activity android:label="sousKisloSladkiy" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.sousKisloSladkiy" />
+    <activity android:label="sousMayonezSirniy" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.sousMayonezSirniy" />
+    <activity android:label="sousOriehoviy" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.sousOriehoviy" />
+    <activity android:label="sousUnagi" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.sousUnagi" />
+    <activity android:label="sousYaponskiyMayonez40g" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.sousYaponskiyMayonez40g" />
+    <activity android:label="spaisiLososSZhasminovimRisom" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.spaisiLososSZhasminovimRisom" />
+    <activity android:label="spaisiSushi" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.spaisiSushi" />
+    <activity android:label="honsu" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.supMisoSalatOvoshchnoySLososemKurinieKrilliaTeriakiSSirnimSousom" />
+    <activity android:label="supMisoSirniySKrevietkamiILososem" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.supMisoSirniySKrevietkamiILososem" />
+    <activity android:label="supNezhniySlivochniySLososem" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.supNezhniySlivochniySLososem" />
+    <activity android:label="supSkopchenimUgremIkrohmalnoyLapshoy" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.supSkopchenimUgremIkrohmalnoyLapshoy" />
+    <activity android:label="supTomYamSKrevetkoy" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.supTomYamSKrevetkoy" />
+    <activity android:icon="@drawable/icon" android:label="SushiActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Black.NoTitleBar" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.SushiActivity" />
+    <activity android:label="sushiAvokado" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.sushiAvokado" />
+    <activity android:label="sushiIkraTobiko" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.sushiIkraTobiko" />
+    <activity android:label="sushiKalmar" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.sushiKalmar" />
+    <activity android:label="sushiLosos" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.sushiLosos" />
+    <activity android:label="sushiMarinovannieVodoroski" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.sushiMarinovannieVodoroski" />
+    <activity android:label="sushiOsminogSIkroyTobiko" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.sushiOsminogSIkroyTobiko" />
+    <activity android:label="sushiSladkiyOmlet" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.sushiSladkiyOmlet" />
+    <activity android:label="sushiSpaisiKalmarSIkroyTobiko" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.sushiSpaisiKalmarSIkroyTobiko" />
+    <activity android:label="sushiSpaisiKopcheniyLosos" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.sushiSpaisiKopcheniyLosos" />
+    <activity android:label="sushiSpaisiLosos" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.sushiSpaisiLosos" />
+    <activity android:label="sushiSpaisiTunets" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.sushiSpaisiTunets" />
+    <activity android:label="sushiTigrovaKrivietka" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.sushiTigrovaKrivietka" />
+    <activity android:label="sushiTuniets" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.sushiTuniets" />
+    <activity android:label="sushiUgorKopcheniy" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.sushiUgorKopcheniy" />
+    <activity android:label="svinieRebraVAsiatskomStile" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.svinieRebraVAsiatskomStile" />
+    <activity android:label="svininaNaKisttziZKartoplianimPure" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.svininaNaKisttziZKartoplianimPure" />
+    <activity android:label="tatakiTunetsSSousomVafu" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.tatakiTunetsSSousomVafu" />
+    <activity android:label="teliatinaSOvoshchamiVSousePepper" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.teliatinaSOvoshchamiVSousePepper" />
+    <activity android:label="TepanActivity" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.TepanActivity" />
+    <activity android:label="tepanOvoshchi" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.tepanOvoshchi" />
+    <activity android:label="tepliySalatSTeliatinoyIBaklazhanami" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.tepliySalatSTeliatinoyIBaklazhanami" />
+    <activity android:label="teriakiLososSListiamiZelenogogSalataIAvokado" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.teriakiLososSListiamiZelenogogSalataIAvokado" />
+    <activity android:label="teriyakiKuritsa" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.teriyakiKuritsa" />
+    <activity android:label="tiramisu" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.tiramisu" />
+    <activity android:label="tortNapoleon" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.tortNapoleon" />
+    <activity android:label="tsiplionokVAziatskomSouseSOvoshcami" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.tsiplionokVAziatskomSouseSOvoshcami" />
+    <activity android:label="vasabi" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.vasabi" />
+    <activity android:label="yablochniyDesert" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.yablochniyDesert" />
+    <activity android:label="yaponskiyOmletSOvochiami" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.yaponskiyOmletSOvochiami" />
+    <activity android:label="zakuskaLososiaIzSiromFiladelfia" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.zakuskaLososiaIzSiromFiladelfia" />
+    <activity android:label="ZakuskiActivity" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.ZakuskiActivity" />
+    <activity android:label="zharenayaKrahmalnayaLapshaSOvoshchami" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.zharenayaKrahmalnayaLapshaSOvoshchami" />
+    <activity android:label="zharenayaLapshaSTeliatinoyPodPerechnimSousom" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.zharenayaLapshaSTeliatinoyPodPerechnimSousom" />
+    <activity android:label="zharennayaKrahmalnayaLapshaSKuritseyVKisloSladkomSouse" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.zharennayaKrahmalnayaLapshaSKuritseyVKisloSladkomSouse" />
+    <activity android:label="zharennayaUdonLapshaSKuritseyIOvoshchamiVUstrichnomSouse" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.zharennayaUdonLapshaSKuritseyIOvoshchamiVUstrichnomSouse" />
+    <activity android:label="zharennayaUdonLapshaSTeliatinoyIOvoshchamiVUstrichnomSouse" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.zharennayaUdonLapshaSTeliatinoyIOvoshchamiVUstrichnomSouse" />
+    <activity android:label="zharennayUdonLapshaSKuritseyIOvoshchamiVSouseHoyshin" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.zharennayUdonLapshaSKuritseyIOvoshchamiVSouseHoyshin" />
+    <activity android:label="zharennieLomtikiSiraSKliukvennimSousom" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.zharennieLomtikiSiraSKliukvennimSousom" />
+    <activity android:label="zharinayaKrahmalnayaLapshaSTeliatinoyPodImbirnoSoevimSousom" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.zharinayaKrahmalnayaLapshaSTeliatinoyPodImbirnoSoevimSousom" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="Murakami.Murakami.mono.MonoRuntimeProvider.__mono_init__" />
   </application>
 </manifest>

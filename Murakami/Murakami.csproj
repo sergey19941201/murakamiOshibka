@@ -16,7 +16,7 @@
     <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
     <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
-    <TargetFrameworkVersion>v5.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v6.0</TargetFrameworkVersion>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
@@ -61,7 +61,7 @@
       <HintPath>..\Components\urlimageviewhelper-1.0.4.1\lib\android\UrlImageViewHelper.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Xamarin.Android.Support.v4.23.4.0\lib\MonoAndroid403\Xamarin.Android.Support.v4.dll</HintPath>
+      <HintPath>..\packages\Xamarin.Android.Support.v4.23.4.0.1\lib\MonoAndroid403\Xamarin.Android.Support.v4.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Xamarin.GooglePlayServices.Base, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
@@ -81,13 +81,33 @@
     <Compile Include="AkciiActivity.cs" />
     <Compile Include="BludoDniaActivity.cs" />
     <Compile Include="CaliforniaActivity.cs" />
+    <Compile Include="chipsiRisovieKrevietochnie.cs" />
+    <Compile Include="chizKeyk.cs" />
     <Compile Include="desertsActivity.cs" />
     <Compile Include="detalniyProsmotrActivity.cs" />
+    <Compile Include="dimSamiSKuritsey.cs" />
+    <Compile Include="dimSamiSkuritseyIKrevietkoy.cs" />
     <Compile Include="drakoniActivity.cs" />
     <Compile Include="FiladelfiaActivity.cs" />
+    <Compile Include="fudziyama.cs" />
     <Compile Include="GoryachieRolliActivity.cs" />
+    <Compile Include="goryachiyRollSLososemIUgrem.cs" />
+    <Compile Include="goryachiyRollTonkatsusUgrem.cs" />
+    <Compile Include="harGauSKuritseyIKrevietkoy.cs" />
+    <Compile Include="harGaySKuritsey.cs" />
+    <Compile Include="hrustkiyKalmarIzSpaysiSousom.cs" />
+    <Compile Include="imbir.cs" />
     <Compile Include="InshiRolliActivity.cs" />
+    <Compile Include="kalmarKarageSChiliTsitrusovimSousom.cs" />
+    <Compile Include="kariSKuritseyIParovimRisom.cs" />
     <Compile Include="kartaActivity.cs" />
+    <Compile Include="keykSLososem.cs" />
+    <Compile Include="keykSLosossem.cs" />
+    <Compile Include="kokosovieLepeshkiSChesnochnimSousom.cs" />
+    <Compile Include="krabovieMeshochki.cs" />
+    <Compile Include="kuriniyBulionSYaytsomSalatOvoshchnoySZapravkoyNasuKrahmalnayaLapshaSOvoshchamiISvininoy.cs" />
+    <Compile Include="kuriniyRuletSTempuraOvoshchamiIyablochnimChatni.cs" />
+    <Compile Include="kurinoeBedroPoPekinskiSMarinovanimOgurtsomVasabi.cs" />
     <Compile Include="LanchiActivity.cs" />
     <Compile Include="LapshaActivity.cs" />
     <Compile Include="MainActivity.cs" />
@@ -96,19 +116,147 @@
     <Compile Include="NapitkiActivity.cs" />
     <Compile Include="NovostiActivity.cs" />
     <Compile Include="OsnovniBludaActivity.cs" />
+    <Compile Include="ovoshchiTepanSKuritsey.cs" />
+    <Compile Include="ovoshchiTepanSMoreproduktami.cs" />
+    <Compile Include="ovoshchiTepanSTeliatinoy.cs" />
+    <Compile Include="pekinskiySalatSKuritseyIYaytsomTonkatsu.cs" />
+    <Compile Include="pelmeniGedzuSKuritsey.cs" />
+    <Compile Include="pelmeniGedzuSKuritseyIKrevetkoy.cs" />
+    <Compile Include="prianieZharenieKrevietkiSSousomAvokadoIKimchi.cs" />
     <Compile Include="ProMurakamiActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RisGohan.cs" />
+    <Compile Include="risZhareniySKrevetkami.cs" />
+    <Compile Include="risZhareniySKuritsey.cs" />
+    <Compile Include="risZhareniySOvoshcami.cs" />
+    <Compile Include="risZharenniySGribamiIYaytsom.cs" />
+    <Compile Include="rollAliaska.cs" />
+    <Compile Include="rollCaliforniyskiyOstriySLososemVStruzhkeTuntsaa.cs" />
+    <Compile Include="rollCaliforniyskiySLososem.cs" />
+    <Compile Include="rollCaliforniyskiySTempuraKrevietkoy.cs" />
+    <Compile Include="rollCaliforniyskiySTuntsom.cs" />
+    <Compile Include="rollCaliforniyskiySUgrem.cs" />
     <Compile Include="rollChedderITempuraSKrevetkoy.cs" />
+    <Compile Include="rollChernichnoSirniy.cs" />
+    <Compile Include="rollDrakon.cs" />
+    <Compile Include="rollFiladelfiaSKopchenimLososem.cs" />
+    <Compile Include="rollFiladelfiaSMarinovanimLososem.cs" />
+    <Compile Include="rollKrasniyDrakon.cs" />
+    <Compile Include="rollOgurechniyLosos.cs" />
+    <Compile Include="rollOgurechniyUgor.cs" />
+    <Compile Include="rollOshiAburiSLososemIGolSousom.cs" />
+    <Compile Include="rollOshiSLososemITuntsom.cs" />
+    <Compile Include="rollOvoshchnoy.cs" />
+    <Compile Include="rollRainbowNewStyle.cs" />
+    <Compile Include="rollSAvokado.cs" />
+    <Compile Include="rollSladkayaFiladelfia.cs" />
+    <Compile Include="rollSlivochnayaCaliforniaSUgrem.cs" />
+    <Compile Include="rollSlososem.cs" />
+    <Compile Include="rollSLososemMarinovanimiVodorosliamiISiromFiladelfia.cs" />
+    <Compile Include="rollSOgurtsom.cs" />
+    <Compile Include="rollSoSniezhnimKrabomIOgurtsom.cs" />
+    <Compile Include="rollSpaisiLosos.cs" />
+    <Compile Include="rollSpaisiOsminog.cs" />
+    <Compile Include="rollSpaisiTunets.cs" />
+    <Compile Include="rollSPastrami.cs" />
+    <Compile Include="rollSTuntsom.cs" />
+    <Compile Include="rollSTuntsomSnezhnimKrabomISousomIzAvokado.cs" />
+    <Compile Include="rollSUgremIAvokado.cs" />
+    <Compile Include="rollSUgremIOgurtsom.cs" />
+    <Compile Include="rollZolotoyDrakon.cs" />
+    <Compile Include="sakatSPastramiVAsiatskomStile.cs" />
     <Compile Include="SaladsActivity.cs" />
+    <Compile Include="salatDrakon.cs" />
+    <Compile Include="salatIzSoevihProrostkov.cs" />
+    <Compile Include="salatOvoshchnoySTeriyakiKuritseyIHrustiashcheyLapsoy.cs" />
+    <Compile Include="salatSKopchenimBeconomVtempuraKranchah.cs" />
+    <Compile Include="salatSoSviezhimLososemIGolubimSirom.cs" />
+    <Compile Include="salatTonkatsuKrevietkamiPodSirnimSousom.cs" />
+    <Compile Include="salatTonkatsuSKuritseyPodSirnimSousom.cs" />
     <Compile Include="SashimiActivity.cs" />
+    <Compile Include="sashimiLosos.cs" />
+    <Compile Include="sashimiOsminog.cs" />
+    <Compile Include="sashimiTigrovayaKrevietka.cs" />
+    <Compile Include="sashimiTunets.cs" />
+    <Compile Include="sashimiUgorKopcheniy.cs" />
+    <Compile Include="setCaliforniyskiy.cs" />
+    <Compile Include="setDrakon.cs" />
+    <Compile Include="setEdo.cs" />
+    <Compile Include="setFiladelfia.cs" />
+    <Compile Include="setFudzi.cs" />
     <Compile Include="SetRestoranovActivity.cs" />
     <Compile Include="SetsActivity.cs" />
+    <Compile Include="setSushi.cs" />
+    <Compile Include="setYamato.cs" />
+    <Compile Include="shafranovayaLapshaSMoreproduktami.cs" />
+    <Compile Include="shokoladnoAvokadniyDesert.cs" />
+    <Compile Include="sishiOsminog.cs" />
+    <Compile Include="soeviySous.cs" />
+    <Compile Include="sokRichAnanasoviy.cs" />
+    <Compile Include="sokRichApelsinoviy.cs" />
+    <Compile Include="sokRichEkzotik.cs" />
+    <Compile Include="sokRichGreypfrutoviy.cs" />
+    <Compile Include="sokRichPersikoviy.cs" />
+    <Compile Include="sokRichTomatniy.cs" />
+    <Compile Include="sokRichVishneviy.cs" />
+    <Compile Include="SokRichYabluchniy.cs" />
     <Compile Include="SoucesActivity.cs" />
     <Compile Include="SoupesActivity.cs" />
+    <Compile Include="sousKimchi.cs" />
+    <Compile Include="sousKimchiMayonez.cs" />
+    <Compile Include="sousKisloSladkiy.cs" />
+    <Compile Include="sousMayonezSirniy.cs" />
+    <Compile Include="sousOriehoviy.cs" />
+    <Compile Include="sousUnagi.cs" />
+    <Compile Include="sousYaponskiyMayonez40g.cs" />
+    <Compile Include="spaisiLososSZhasminovimRisom.cs" />
+    <Compile Include="spaisiSushi.cs" />
+    <Compile Include="supMisoSalatOvoshchnoySLososemKurinieKrilliaTeriakiSSirnimSousom.cs" />
+    <Compile Include="supMisoSirniySKrevietkamiILososem.cs" />
+    <Compile Include="supNezhniySlivochniySLososem.cs" />
+    <Compile Include="supSkopchenimUgremIkrohmalnoyLapshoy.cs" />
+    <Compile Include="supTomYamSKrevetkoy.cs" />
     <Compile Include="SushiActivity.cs" />
+    <Compile Include="sushiAvokado.cs" />
+    <Compile Include="sushiIkraTobiko.cs" />
+    <Compile Include="sushiKalmar.cs" />
+    <Compile Include="sushiLosos.cs" />
+    <Compile Include="sushiMarinovannieVodoroski.cs" />
+    <Compile Include="sushiOsminogSIkroyTobiko.cs" />
+    <Compile Include="sushiSladkiyOmlet.cs" />
+    <Compile Include="sushiSpaisiKalmarSIkroyTobiko.cs" />
+    <Compile Include="sushiSpaisiKopcheniyLosos.cs" />
+    <Compile Include="sushiSpaisiLosos.cs" />
+    <Compile Include="sushiSpaisiTunets.cs" />
+    <Compile Include="sushiTigrovaKrivietka.cs" />
+    <Compile Include="sushiTuniets.cs" />
+    <Compile Include="sushiUgorKopcheniy.cs" />
+    <Compile Include="svinieRebraVAsiatskomStile.cs" />
+    <Compile Include="svininaNaKisttziZKartoplianimPure.cs" />
+    <Compile Include="tatakiTunetsSSousomVafu.cs" />
+    <Compile Include="teliatinaSOvoshchamiVSousePepper.cs" />
     <Compile Include="TepanActivity.cs" />
+    <Compile Include="tepanOvoshchi.cs" />
+    <Compile Include="tepliySalatSTeliatinoyIBaklazhanami.cs" />
+    <Compile Include="teriakiLososSListiamiZelenogogSalataIAvokado.cs" />
+    <Compile Include="teriyakiKuritsa.cs" />
+    <Compile Include="tiramisu.cs" />
+    <Compile Include="tortNapoleon.cs" />
+    <Compile Include="tsiplionokVAziatskomSouseSOvoshcami.cs" />
+    <Compile Include="vasabi.cs" />
+    <Compile Include="yablochniyDesert.cs" />
+    <Compile Include="yaponskiyOmletSOvochiami.cs" />
+    <Compile Include="zakuskaLososiaIzSiromFiladelfia.cs" />
     <Compile Include="ZakuskiActivity.cs" />
+    <Compile Include="zharenayaKrahmalnayaLapshaSOvoshchami.cs" />
+    <Compile Include="zharenayaLapshaSTeliatinoyPodPerechnimSousom.cs" />
+    <Compile Include="zharennayaKrahmalnayaLapshaSKuritseyVKisloSladkomSouse.cs" />
+    <Compile Include="zharennayaUdonLapshaSKuritseyIOvoshchamiVUstrichnomSouse.cs" />
+    <Compile Include="zharennayaUdonLapshaSTeliatinoyIOvoshchamiVUstrichnomSouse.cs" />
+    <Compile Include="zharennayUdonLapshaSKuritseyIOvoshchamiVSouseHoyshin.cs" />
+    <Compile Include="zharennieLomtikiSiraSKliukvennimSousom.cs" />
+    <Compile Include="zharinayaKrahmalnayaLapshaSTeliatinoyPodImbirnoSoevimSousom.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="GettingStarted.Xamarin" />

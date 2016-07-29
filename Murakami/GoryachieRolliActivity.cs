@@ -45,8 +45,16 @@ namespace Murakami
             TextView price = FindViewById<TextView>(Resource.Id.price);
             TextView weight = FindViewById<TextView>(Resource.Id.weight);
             ImageView imagen = FindViewById<ImageView>(Resource.Id.image);
+
             ImageButton add = FindViewById<ImageButton>(Resource.Id.add);
 
+            add.Click += delegate
+            {
+                var intent = new Intent(this, typeof(goryachiyRollTonkatsusUgrem));
+                StartActivity(intent);
+            };
+
+           
             // Zagruska detalnogo prosmotra, ego poka net
             /* add.Click += delegate
              {
@@ -77,6 +85,12 @@ namespace Murakami
             TextView weight1 = FindViewById<TextView>(Resource.Id.weight1);
             ImageView imagen1 = FindViewById<ImageView>(Resource.Id.image1);
             ImageButton add1 = FindViewById<ImageButton>(Resource.Id.add1);
+
+            add1.Click += delegate
+            {
+                var intent = new Intent(this, typeof(goryachiyRollSLososemIUgrem));
+                StartActivity(intent);
+            };
 
             // Zagruska detalnogo prosmotra, ego poka net
             /* add.Click += delegate

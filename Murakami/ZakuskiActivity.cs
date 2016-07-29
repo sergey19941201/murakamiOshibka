@@ -61,7 +61,11 @@ namespace Murakami
             ImageView imagen = FindViewById<ImageView>(Resource.Id.image);
             ImageButton add = FindViewById<ImageButton>(Resource.Id.add);
 
-
+            add.Click += delegate
+            {
+                var intent = new Intent(this, typeof(tatakiTunetsSSousomVafu));
+                StartActivity(intent);
+            };
             // Zagruska detalnogo prosmotra, ego poka net
             /* add.Click += delegate
              {
@@ -92,7 +96,11 @@ namespace Murakami
             ImageView imagen1 = FindViewById<ImageView>(Resource.Id.image1);
             ImageButton add1 = FindViewById<ImageButton>(Resource.Id.add1);
 
-
+            add1.Click += delegate
+            {
+                var intent = new Intent(this, typeof(pelmeniGedzuSKuritseyIKrevetkoy));
+                StartActivity(intent);
+            };
             // Zagruska detalnogo prosmotra, ego poka net
             /* add.Click += delegate
              {
@@ -124,7 +132,11 @@ namespace Murakami
             ImageView imagen2 = FindViewById<ImageView>(Resource.Id.image2);
             ImageButton add2 = FindViewById<ImageButton>(Resource.Id.add2);
 
-
+            add2.Click += delegate
+            {
+                var intent = new Intent(this, typeof(pelmeniGedzuSKuritsey));
+                StartActivity(intent);
+            };
             // Zagruska detalnogo prosmotra, ego poka net
             /* add.Click += delegate
              {
@@ -156,7 +168,11 @@ namespace Murakami
             ImageView imagen3 = FindViewById<ImageView>(Resource.Id.image3);
             ImageButton add3 = FindViewById<ImageButton>(Resource.Id.add3);
 
-
+            add3.Click += delegate
+            {
+                var intent = new Intent(this, typeof(kalmarKarageSChiliTsitrusovimSousom));
+                StartActivity(intent);
+            };
             // Zagruska detalnogo prosmotra, ego poka net
             /* add.Click += delegate
              {
@@ -188,7 +204,11 @@ namespace Murakami
             ImageView imagen4 = FindViewById<ImageView>(Resource.Id.image4);
             ImageButton add4 = FindViewById<ImageButton>(Resource.Id.add4);
 
-
+            add4.Click += delegate
+            {
+                var intent = new Intent(this, typeof(dimSamiSkuritseyIKrevietkoy));
+                StartActivity(intent);
+            };
             // Zagruska detalnogo prosmotra, ego poka net
             /* add.Click += delegate
              {
@@ -219,7 +239,11 @@ namespace Murakami
             ImageView imagen5 = FindViewById<ImageView>(Resource.Id.image5);
             ImageButton add5 = FindViewById<ImageButton>(Resource.Id.add5);
 
-
+            add5.Click += delegate
+            {
+                var intent = new Intent(this, typeof(dimSamiSKuritsey));
+                StartActivity(intent);
+            };
             // Zagruska detalnogo prosmotra, ego poka net
             /* add.Click += delegate
              {
@@ -252,6 +276,11 @@ namespace Murakami
             ImageView imagen6 = FindViewById<ImageView>(Resource.Id.image6);
             ImageButton add6 = FindViewById<ImageButton>(Resource.Id.add6);
 
+            add6.Click += delegate
+            {
+                var intent = new Intent(this, typeof(harGaySKuritsey));
+                StartActivity(intent);
+            };
             // Zagruska detalnogo prosmotra, ego poka net
             /* add.Click += delegate
              {
@@ -282,7 +311,11 @@ namespace Murakami
             ImageView imagen7 = FindViewById<ImageView>(Resource.Id.image7);
             ImageButton add7 = FindViewById<ImageButton>(Resource.Id.add7);
 
-
+            add7.Click += delegate
+            {
+                var intent = new Intent(this, typeof(harGauSKuritseyIKrevietkoy));
+                StartActivity(intent);
+            };
             // Zagruska detalnogo prosmotra, ego poka net
             /* add.Click += delegate
              {
@@ -313,7 +346,11 @@ namespace Murakami
             ImageView imagen8 = FindViewById<ImageView>(Resource.Id.image8);
             ImageButton add8 = FindViewById<ImageButton>(Resource.Id.add8);
 
-
+            add8.Click += delegate
+            {
+                var intent = new Intent(this, typeof(chipsiRisovieKrevietochnie));
+                StartActivity(intent);
+            };
             // Zagruska detalnogo prosmotra, ego poka net
             /* add.Click += delegate
              {
@@ -344,7 +381,11 @@ namespace Murakami
             ImageView imagen9 = FindViewById<ImageView>(Resource.Id.image9);
             ImageButton add9 = FindViewById<ImageButton>(Resource.Id.add9);
 
-
+            add9.Click += delegate
+            {
+                var intent = new Intent(this, typeof(teriakiLososSListiamiZelenogogSalataIAvokado));
+                StartActivity(intent);
+            };
             // Zagruska detalnogo prosmotra, ego poka net
             /* add.Click += delegate
              {
@@ -376,7 +417,11 @@ namespace Murakami
             ImageView imagen10 = FindViewById<ImageView>(Resource.Id.image10);
             ImageButton add10 = FindViewById<ImageButton>(Resource.Id.add10);
 
-
+            add10.Click += delegate
+            {
+                var intent = new Intent(this, typeof(zakuskaLososiaIzSiromFiladelfia));
+                StartActivity(intent);
+            };
             // Zagruska detalnogo prosmotra, ego poka net
             /* add.Click += delegate
              {
@@ -410,6 +455,11 @@ namespace Murakami
             ImageView imagen11 = FindViewById<ImageView>(Resource.Id.image11);
             ImageButton add11 = FindViewById<ImageButton>(Resource.Id.add11);
 
+            add11.Click += delegate
+            {
+                var intent = new Intent(this, typeof(krabovieMeshochki));
+                StartActivity(intent);
+            };
             // Zagruska detalnogo prosmotra, ego poka net
             /* add.Click += delegate
              {
@@ -441,7 +491,11 @@ namespace Murakami
             ImageView imagen12 = FindViewById<ImageView>(Resource.Id.image12);
             ImageButton add12 = FindViewById<ImageButton>(Resource.Id.add12);
 
-
+            add12.Click += delegate
+            {
+                var intent = new Intent(this, typeof(hrustkiyKalmarIzSpaysiSousom));
+                StartActivity(intent);
+            };
             // Zagruska detalnogo prosmotra, ego poka net
             /* add.Click += delegate
              {
@@ -475,6 +529,11 @@ namespace Murakami
             ImageView imagen13 = FindViewById<ImageView>(Resource.Id.image13);
             ImageButton add13 = FindViewById<ImageButton>(Resource.Id.add13);
 
+            add13.Click += delegate
+            {
+                var intent = new Intent(this, typeof(prianieZharenieKrevietkiSSousomAvokadoIKimchi));
+                StartActivity(intent);
+            };
             // Zagruska detalnogo prosmotra, ego poka net
             /* add.Click += delegate
              {
@@ -505,7 +564,11 @@ namespace Murakami
             ImageView imagen14 = FindViewById<ImageView>(Resource.Id.image14);
             ImageButton add14 = FindViewById<ImageButton>(Resource.Id.add14);
 
-
+            add14.Click += delegate
+            {
+                var intent = new Intent(this, typeof(kokosovieLepeshkiSChesnochnimSousom));
+                StartActivity(intent);
+            };
             // Zagruska detalnogo prosmotra, ego poka net
             /* add.Click += delegate
              {
@@ -536,7 +599,11 @@ namespace Murakami
             ImageView imagen15 = FindViewById<ImageView>(Resource.Id.image15);
             ImageButton add15 = FindViewById<ImageButton>(Resource.Id.add15);
 
-
+            add15.Click += delegate
+            {
+                var intent = new Intent(this, typeof(zharennieLomtikiSiraSKliukvennimSousom));
+                StartActivity(intent);
+            };
             // Zagruska detalnogo prosmotra, ego poka net
             /* add.Click += delegate
              {
@@ -567,7 +634,11 @@ namespace Murakami
             ImageView imagen16 = FindViewById<ImageView>(Resource.Id.image16);
             ImageButton add16 = FindViewById<ImageButton>(Resource.Id.add16);
 
-
+            add16.Click += delegate
+            {
+                var intent = new Intent(this, typeof(yaponskiyOmletSOvochiami));
+                StartActivity(intent);
+            };
             // Zagruska detalnogo prosmotra, ego poka net
             /* add.Click += delegate
              {

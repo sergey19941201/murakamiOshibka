@@ -100,6 +100,7 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "Murakami.dll" comes first in this list. */
 		"Murakami.dll",
 		"Java.Interop.dll",
+		"UrlImageViewHelper.dll",
 		"Xamarin.Android.Support.v4.dll",
 		"Xamarin.GooglePlayServices.Base.dll",
 		"Xamarin.GooglePlayServices.Basement.dll",

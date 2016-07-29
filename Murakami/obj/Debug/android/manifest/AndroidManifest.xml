@@ -42,7 +42,20 @@
     <activity android:label="NovostiActivity" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.NovostiActivity" />
     <activity android:label="OsnovniBludaActivity" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.OsnovniBludaActivity" />
     <activity android:icon="@drawable/icon" android:label="Murakami" android:screenOrientation="portrait" android:theme="@android:style/Theme.Black.NoTitleBar" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.ProMurakamiActivity" />
+    <activity android:label="rollAliaska" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.rollAliaska" />
     <activity android:icon="@drawable/icon" android:label="rollChedderITempuraSKrevetkoy" android:screenOrientation="portrait" android:theme="@android:style/Theme.Black.NoTitleBar" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.rollChedderITempuraSKrevetkoy" />
+    <activity android:label="rollOgurechniyLosos" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.rollOgurechniyLosos" />
+    <activity android:label="rollOgurechniyUgor" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.rollOgurechniyUgor" />
+    <activity android:label="rollOshiAburiSLososemIGolSousom" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.rollOshiAburiSLososemIGolSousom" />
+    <activity android:label="rollOshiSLososemITuntsom" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.rollOshiSLososemITuntsom" />
+    <activity android:label="rollRainbowNewStyle" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.rollRainbowNewStyle" />
+    <activity android:label="rollSoSniezhnimKrabomIOgurtsom" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.rollSoSniezhnimKrabomIOgurtsom" />
+    <activity android:label="rollSpaisiLosos" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.rollSpaisiLosos" />
+    <activity android:label="rollSpaisiOsminog" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.rollSpaisiOsminog" />
+    <activity android:label="rollSpaisiTunets" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.rollSpaisiTunets" />
+    <activity android:label="rollSPastrami" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.rollSPastrami" />
+    <activity android:label="rollSTuntsomSnezhnimKrabomISousomIzAvokado" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.rollSTuntsomSnezhnimKrabomISousomIzAvokado" />
+    <activity android:label="rollSUgremIAvokado" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.rollSUgremIAvokado" />
     <activity android:label="SaladsActivity" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.SaladsActivity" />
     <activity android:label="SashimiActivity" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.SashimiActivity" />
     <activity android:icon="@drawable/icon" android:label="SetRestoranovActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Black.NoTitleBar" android:name="md59dff8576ea0b1f5b1a02476520d0d7c7.SetRestoranovActivity" />
