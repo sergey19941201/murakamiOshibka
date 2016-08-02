@@ -30,8 +30,20 @@ namespace Murakami
 
             SetContentView(Resource.Layout.Menu);
 
+            ImageButton menu = FindViewById<ImageButton>(Resource.Id.menu);
+            menu.Click += delegate
+            {
+                var intent = new Intent(this, typeof(MainActivity));
+                StartActivity(intent);
+            };
 
-           
+            ImageButton logo_murakami = FindViewById<ImageButton>(Resource.Id.logo_murakami);
+            logo_murakami.Click += delegate
+            {
+                var intent = new Intent(this, typeof(MainActivity));
+                StartActivity(intent);
+            };
+
             Button rolli = FindViewById<Button>(Resource.Id.rolli);
             rolli.Click += delegate
             {

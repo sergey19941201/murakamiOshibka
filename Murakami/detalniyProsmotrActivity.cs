@@ -29,7 +29,7 @@ namespace Murakami
             base.OnCreate(bundle);
 
             SetContentView(Resource.Layout.detalniyProsmotr);
-
+            
             int count = 1;
         
             TextView quantity = FindViewById<TextView>(Resource.Id.quantity);

@@ -32,9 +32,22 @@ namespace Murakami
             // int count = 1;
             //int price2;
 
-           
 
-                        ImageButton plus = FindViewById<ImageButton>(Resource.Id.plus);
+            ImageButton menuButton = FindViewById<ImageButton>(Resource.Id.menuButton);
+            menuButton.Click += delegate
+            {
+                var intent = new Intent(this, typeof(MainActivity));
+                StartActivity(intent);
+            };
+
+            ImageButton logoButton = FindViewById<ImageButton>(Resource.Id.logoButton);
+            logoButton.Click += delegate
+            {
+                var intent = new Intent(this, typeof(MainActivity));
+                StartActivity(intent);
+            };
+
+            ImageButton plus = FindViewById<ImageButton>(Resource.Id.plus);
 
 
                         var path = System.Environment.GetFolderPath(System.Environment.SpecialFolder.MyDocuments);

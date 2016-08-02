@@ -28,6 +28,20 @@ namespace Murakami
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.Filadelfia);
 
+            ImageButton menuButton = FindViewById<ImageButton>(Resource.Id.menuButton);
+            menuButton.Click += delegate
+            {
+                var intent = new Intent(this, typeof(MainActivity));
+                StartActivity(intent);
+            };
+
+            ImageButton logoButton = FindViewById<ImageButton>(Resource.Id.logoButton);
+            logoButton.Click += delegate
+            {
+                var intent = new Intent(this, typeof(MainActivity));
+                StartActivity(intent);
+            };
+
             var path = System.Environment.GetFolderPath(System.Environment.SpecialFolder.MyDocuments);
             var filename = System.IO.Path.Combine(path, "cache6.txt");
             JsonValue readJson;
